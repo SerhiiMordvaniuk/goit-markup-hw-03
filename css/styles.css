@@ -43,6 +43,26 @@ p, h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px #E7E9FC solid;
 }
 
+.header .container {
+    display: flex;
+    margin: 24px 156px;
+}
+
+
+.nav-container {
+    display: flex;
+    margin-right: 292px;
+}
+
+.nav-title-container {
+    display: flex;
+    gap: 40px; 
+}
+
+.address-container {
+    display: flex;
+    gap: 40px;
+}
 
 
 .nav-logo {
@@ -53,6 +73,7 @@ p, h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 36px;
 }
 
 .nav-logo-studio {
@@ -143,6 +164,25 @@ p, h1, h2, h3, h4, h5, h6 {
     opacity: 0;
 }
 
+.about-us .container {
+    padding: 120px 156px;
+}
+
+.about-us-list {
+    display: flex;
+    max-width: 1128px;
+    margin: 0 auto;
+    gap: 24px;
+}
+
+.about-list-item {
+    max-width: 264 px;
+}
+
+.about-list-title {
+    margin-bottom: 8px;
+}
+
 .about-us-title {
     font-weight: 500;
     font-size: 20px;
@@ -165,6 +205,14 @@ p, h1, h2, h3, h4, h5, h6 {
     background-color: #f4f4fd; 
 }
 
+.our-team .container {
+    padding: 120px 156px;
+}
+
+.team-title-container {
+    padding-bottom: 72px;
+}
+
 .our-team-title {
     font-weight: 700;
     font-size: 36px;
@@ -174,6 +222,13 @@ p, h1, h2, h3, h4, h5, h6 {
     color: #2e2f42;
     text-transform: capitalize;
 }
+
+.team-list-container {
+    display: flex;
+    gap: 24px;
+    margin: 0 auto ;
+}
+
 
 .our-team-item {
     font-weight: 700;
@@ -185,12 +240,25 @@ p, h1, h2, h3, h4, h5, h6 {
     background-color: #ffffff
 }
 
+.photo-container {
+    margin-bottom: 32px;
+}
+
+.names-container {
+    margin-bottom: 8px;
+}
+
 .names {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+}
+
+.position-container {
+    padding-bottom: 32px;
 }
 
 .team-position {
@@ -199,8 +267,11 @@ p, h1, h2, h3, h4, h5, h6 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 /*--------OUR TEAM---------*/
+
+
 
 /*--------OUR PORTFOLIO---------*/
 .our-portfolio-title {

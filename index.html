@@ -20,27 +20,34 @@
     <header class="header">
         <div class="container">
             <nav class="nav">
-                <a href="index.html" class="nav-logo">Web<span class="nav-logo-studio">Studio</span></a>
-                <ul class="nav-title">
-                    <li class="nav-list">  
-                        <a href="./index.html" class="nav-list-item">Studio</a>
-                    </li>
-                    <li class="nav-list">
-                        <a href="" class="nav-list-item">Portfolio</a>
-                    </li>
-                    <li class="nav-list">
-                        <a href="" class="nav-list-item">Contacts</a>
-                    </li>
-                </ul>
+                <div class="nav-container">
+                    
+                    <a href="index.html" class="nav-logo">Web<span class="nav-logo-studio">Studio</span></a>
+                    <ul class="nav-title">
+                        <div class="nav-title-container">
+                            <li class="nav-list">  
+                                <a href="./index.html" class="nav-list-item">Studio</a>
+                            </li>
+                            <li class="nav-list">
+                                <a href="" class="nav-list-item">Portfolio</a>
+                            </li>
+                            <li class="nav-list">
+                                <a href="" class="nav-list-item">Contacts</a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
             </nav>
             <address class="address">
                 <ul class="address-list">
-                    <li>
-                        <a href="mailto:info@devstudio.com" class="address-list-item">info@devstudio.com</a>
-                    </li>
-                    <li>
-                        <a href="tel:+110001111111" class="address-list-item">+11 (000) 111-11-11</a>
-                    </li>
+                    <div class="address-container">
+                        <li>
+                            <a href="mailto:info@devstudio.com" class="address-list-item">info@devstudio.com</a>
+                        </li>
+                        <li>
+                            <a href="tel:+110001111111" class="address-list-item">+11 (000) 111-11-11</a>
+                        </li>
+                    </div>
                 </ul>
             </address>
         </div>
@@ -60,59 +67,106 @@
         <section class="about-us">
             <div class="container">
                 <h2 class="hidden">About us</h2>
-                <ul>
+                <ul div class="about-us-list">
                     <li>
-                        <h3 class="about-us-title">Strategy</h3>
-                        <p class="about-us-txt">Our goal is to identify the business
-                            problem to walk away with the perfect and creative solution.</p>
+                        <div class="about-list-item">
+                            <div class="about-list-title">
+                                <h3 class="about-us-title">Strategy</h3>
+                            </div>
+                            <div class="txt-container">
+                                <p class="about-us-txt">Our goal is to identify the business
+                                    problem to walk away with the perfect and creative solution.
+                                </p>
+                            </div>
+                        </div>
                     </li>
                     <li>
-                        <h3 class="about-us-title">Punctuality</h3>
-                        <p class="about-us-txt">
-                            Bring the key message to the brand's audience for the best price within the shortest possible
-                            time.
-                        </p>
+                        <div class="about-list-item">
+                            <div class="about-list-title">
+                                <h3 class="about-us-title">Punctuality</h3>
+                            </div>
+                            <div class="txt-container">
+                                <p class="about-us-txt">
+                                    Bring the key message to the brand's audience for the best price within the shortest possible
+                                    time.
+                                </p>
+                            </div>
                     </li>
                     <li>
-                        <h3 class="about-us-title">Diligence</h3>
-                        <p class="about-us-txt">
-                            Research and confirm brands that present the strongest digital growth opportunities and minimize
-                            risk.
-                        </p>
+                        <div class="about-list-item">
+                            <div class="about-list-title">
+                                <h3 class="about-us-title">Diligence</h3>
+                            </div>
+                            <div class="txt-container">
+                                <p class="about-us-txt">
+                                    Research and confirm brands that present the strongest digital growth opportunities and minimize
+                                    risk.
+                                </p>
+                            </div>
+                        </div>
                     </li>
                     <li>
-                        <h3 class="about-us-title">Technologies</h3>
-                        <p class="about-us-txt">
-                            Design practice focused on digital experiences. We bring forth a deep passion for
-                            problem-solving.
-                        </p>
+                        <div class="about-list-item">
+                            <div class="about-list-title">
+                                <h3 class="about-us-title">Technologies</h3>
+                            </div>
+                            <div class="txt-container">
+                                <p class="about-us-txt">
+                                    Design practice focused on digital experiences. We bring forth a deep passion for
+                                    problem-solving.
+                                </p>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
         </section>
         <section class="our-team">
             <div class="container">
-                <h2 class="our-team-title">Our Team</h2>
+                <div class="team-title-container">
+                    <h2 class="our-team-title">Our Team</h2>
+                </div>
                 <ul class="our-team-list">
-                    <li class="our-team-item">
-                        <img src="./images/our_team/mark.jpg" alt="marks photo" width="264">
-                        <h3 class="names">Mark Guerrero</h3>
-                        <p  class="team-position">Product Designer</p>
-                    </li>
-                    <li class="our-team-item">
-                        <img src="./images/our_team/tom.jpg" alt="toms photo" width="264">
-                        <h3 class="names">Tom Ford</h3>
-                        <p class="team-position">Frontend Developer</p>
-                    </li >
-                    <li class="our-team-item"><img src="./images/our_team/camila.jpg" alt="camilas photo" width="264">
-                        <h3 class="names">Camila Garcia</h3>
-                        <p class="team-position">Marketing</p>
-                    </li>
-                    <li class="our-team-item">
-                        <img src="./images/our_team/daniel.jpg" alt="daniels photo" width="264">
-                        <h3 class="names">Daniel Wilson</h3>
-                        <p class="team-position">UI Designer</p>
-                    </li>
+                    <div class="team-list-container">
+                        <li class="our-team-item">
+                            <div class="team-item-container">
+                                <div class="photo-container">
+                                    <img src="./images/our_team/mark.jpg" alt="marks photo" width="264">
+                                </div>
+                                <div class="names-container"><h3 class="names">Mark Guerrero</h3></div>
+                                <div class="position-container">
+                                    <p  class="team-position">Product Designer</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="our-team-item">
+                            <div class="team-item-container">
+                                <div class="photo-container">
+                                    <img src="./images/our_team/tom.jpg" alt="toms photo" width="264">
+                                </div>
+                                <div class="names-container"><h3 class="names">Tom Ford</h3></div>
+                                <div class="position-container"><p class="team-position">Frontend Developer</p></div>
+                            </div>
+                        </li >
+                        <li class="our-team-item">
+                            <div class="team-item-container">
+                                <div class="photo-container">
+                                    <img src="./images/our_team/camila.jpg" alt="camilas photo" width="264">
+                                </div>
+                                <div class="names-container"><h3 class="names">Camila Garcia</h3></div>
+                                <div class="position-container"><p class="team-position">Marketing</p></div>
+                            </div>
+                        </li>
+                        <li class="our-team-item">
+                            <div class="team-item-container">
+                                <div class="photo-container">
+                                    <img src="./images/our_team/daniel.jpg" alt="daniels photo" width="264">
+                                </div>
+                                <div class="names-container"><h3 class="names">Daniel Wilson</h3></div>
+                                <div class="position-container"><p class="team-position">UI Designer</p></div>
+                            </div>
+                        </li>
+                    </div>
                 </ul>
             </div>
         </section>
