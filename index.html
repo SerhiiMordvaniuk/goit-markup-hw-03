@@ -18,25 +18,24 @@
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="header-container">
+            <div class="logo-container">
+                <a href="index.html" class="nav-logo">Web<span class="nav-logo-studio">Studio</span></a>
+            </div>
             <nav class="nav">
-                <div class="nav-container">
-                    
-                    <a href="index.html" class="nav-logo">Web<span class="nav-logo-studio">Studio</span></a>
-                    <ul class="nav-title">
-                        <div class="nav-title-container">
-                            <li class="nav-list">  
-                                <a href="./index.html" class="nav-list-item">Studio</a>
-                            </li>
-                            <li class="nav-list">
-                                <a href="" class="nav-list-item">Portfolio</a>
-                            </li>
-                            <li class="nav-list">
-                                <a href="" class="nav-list-item">Contacts</a>
-                            </li>
-                        </div>
-                    </ul>
-                </div>
+                <ul class="nav-title">
+                    <div class="nav-container">
+                        <li class="nav-list">  
+                            <a href="./index.html" class="nav-list-item">Studio</a>
+                        </li>
+                        <li class="nav-list">
+                            <a href="" class="nav-list-item">Portfolio</a>
+                        </li>
+                        <li class="nav-list">
+                            <a href="" class="nav-list-item">Contacts</a>
+                        </li>
+                    </div>
+                </ul>
             </nav>
             <address class="address">
                 <ul class="address-list">
@@ -62,12 +61,13 @@
                 <div class="heading-button-container">
                     <button type="button" class="heading-button">Order Service</button>
                 </div>
-        </div class="container">
+        </div >
         </section>
         <section class="about-us">
             <div class="container">
                 <h2 class="hidden">About us</h2>
-                <ul div class="about-us-list">
+                <ul> 
+                    <div class="about-us-list">
                     <li>
                         <div class="about-list-item">
                             <div class="about-list-title">
@@ -91,6 +91,7 @@
                                     time.
                                 </p>
                             </div>
+                        </div>
                     </li>
                     <li>
                         <div class="about-list-item">
@@ -118,6 +119,7 @@
                             </div>
                         </div>
                     </li>
+                    </div>
                 </ul>
             </div>
         </section>
@@ -172,39 +174,45 @@
         </section>
         <section class="our-portfolio">
             <div class="container">
-                <h2 id="portfolio" class="our-portfolio-title">Our portfolio</h2>
-                <ul>
-                    <li>
-                        <img src="./images/our_portfolio/app.jpg" alt="app" width="360">
-                        <h3 class="our-portfolio-list">Banking App</h3>
-                        <p class="our-portfolio-txt">App</p>
-                    </li>
-                    <li>
-                        <img src="./images/our_portfolio/pay.jpg" alt="pay" width="360">
-                        <h3 class="our-portfolio-list">Cashless Payment</h3>
-                        <p class="our-portfolio-txt">Marketing</p>
-                    </li>
-                    <li>
-                        <img src="./images/our_portfolio/laptop.jpg" alt="laptop" width="360">
-                        <h3 class="our-portfolio-list">Meditation App</h3>
-                        <p class="our-portfolio-txt">App</p>
-                    </li>
-                    <li>
-                        <img src="./images/our_portfolio/drive.jpg" alt="drive" width="360">
-                        <h3 class="our-portfolio-list">Taxi Service</h3>
-                        <p class="our-portfolio-txt">Marketing</p>
-                    </li>
-                    <li>
-                        <img src="./images/our_portfolio/smartphone.jpg" alt="smartphone" width="360">
-                        <h3 class="our-portfolio-list">Screen Illustrations</h3>
-                        <p class="our-portfolio-txt">Design</p>
-                    </li>
-                    <li>
-                        <img src="./images/our_portfolio/girl.jpg" alt="girl" width="360">
-                        <h3 class="our-portfolio-list">Online Courses </h3>
-                        <p class="our-portfolio-txt">Marketing</p>
-                    </li>
-                </ul>
+                <div class="our-portfolio-container">
+                    <div class="portfolio-title-container">
+                        <h2 id="portfolio" class="our-portfolio-title">Our portfolio</h2>
+                    </div>
+                    <ul>
+                        <div class="portfolio-list-container">
+                            <li>
+                                <img src="./images/our_portfolio/app.jpg" alt="app" width="360">
+                                <h3 class="our-portfolio-list">Banking App</h3>
+                                <p class="our-portfolio-txt">App</p>
+                            </li>
+                            <li>
+                                <img src="./images/our_portfolio/pay.jpg" alt="pay" width="360">
+                                <h3 class="our-portfolio-list">Cashless Payment</h3>
+                                <p class="our-portfolio-txt">Marketing</p>
+                            </li>
+                            <li>
+                                <img src="./images/our_portfolio/laptop.jpg" alt="laptop" width="360">
+                                <h3 class="our-portfolio-list">Meditation App</h3>
+                                <p class="our-portfolio-txt">App</p>
+                            </li>
+                            <li>
+                                <img src="./images/our_portfolio/drive.jpg" alt="drive" width="360">
+                                <h3 class="our-portfolio-list">Taxi Service</h3>
+                                <p class="our-portfolio-txt">Marketing</p>
+                            </li>
+                            <li>
+                                <img src="./images/our_portfolio/smartphone.jpg" alt="smartphone" width="360">
+                                <h3 class="our-portfolio-list">Screen Illustrations</h3>
+                                <p class="our-portfolio-txt">Design</p>
+                            </li>
+                            <li>
+                                <img src="./images/our_portfolio/girl.jpg" alt="girl" width="360">
+                                <h3 class="our-portfolio-list">Online Courses </h3>
+                                <p class="our-portfolio-txt">Marketing</p>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
             </div>
         </section>
     </main>
