@@ -19,11 +19,31 @@ a:focus {
 
 ul, ol {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+
+}
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
+.container {
+    width: 1188;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/*--------HEADER---------*/
 .header {
     background-color: #fff;
+    border-bottom: 1px #E7E9FC solid;
 }
+
+
 
 .nav-logo {
     font-family: "Raleway", sans-serif;
@@ -62,9 +82,22 @@ ul, ol {
     letter-spacing: 0.02em;
     color: #434455;
 }
+/*--------HEADER---------*/
 
+
+/*--------HEADING---------*/
 .heading {
     background-color: #2e2f42;
+}
+
+.heading .container {
+    padding: 188px 472px;
+}
+
+.main-heading-container{
+    max-width: 496px;
+    margin: 0 auto 48px auto;
+
 }
 
 .main-heading {
@@ -76,6 +109,11 @@ ul, ol {
     text-align: center;
 }
 
+.heading-button-container {
+    display: flex;
+    justify-content: center;
+}
+
 .heading-button {
     font-weight: 500;
     font-size: 16px;
@@ -85,6 +123,9 @@ ul, ol {
     background:#4d5ae5 ;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
 }
 
 .heading-button:hover { 
@@ -94,7 +135,10 @@ ul, ol {
 .heading-button:focus {
     background: #404bbf;
 }
+/*--------HEADING---------*/
 
+
+/*--------ABOUT US---------*/
 .hidden {
     opacity: 0;
 }
@@ -113,7 +157,10 @@ ul, ol {
     letter-spacing: 0.02em;
     color: #434455;
 }
+/*--------ABOUT US---------*/
 
+
+/*--------OUR TEAM---------*/
 .our-team {
     background-color: #f4f4fd; 
 }
@@ -153,7 +200,9 @@ ul, ol {
     letter-spacing: 0.02em;
     color: #434455;
 }
+/*--------OUR TEAM---------*/
 
+/*--------OUR PORTFOLIO---------*/
 .our-portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -179,9 +228,25 @@ ul, ol {
     letter-spacing: 0.02em;
     color: #434455;
 }
+/*--------OUR PORTFOLIO---------*/
 
+/*--------FOOTER---------*/
 .footer {
     background-color: #2e2f42;
+}
+
+.footer .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 156px;
+}
+
+.footer-container {
+    max-width: 264px;
+}
+
+.footer-logo-container {
+    margin-bottom: 16px;
 }
 
 .footer-logo {
@@ -203,3 +268,5 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;}
+
+/*--------FOOTER---------*/
