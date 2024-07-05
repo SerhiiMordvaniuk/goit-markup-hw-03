@@ -49,6 +49,7 @@ button {
 
 .header {
     background-color: #fff;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -60,6 +61,7 @@ button {
     display: flex;
     flex-grow: 1;
     align-items: center;
+    padding: 24px 0;
 }
 
 .nav-logo {
@@ -79,9 +81,7 @@ button {
 
 .nav-title {
     display: flex;
-    gap: 40px;
-    padding: 24px 0;
-    
+    gap: 40px; 
 }
 
 .nav-list {
