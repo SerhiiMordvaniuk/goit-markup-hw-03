@@ -248,11 +248,8 @@ button {
 }
 
 .name-position-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 8px;
+    padding: 32px 0;
+
 }
 
 .our-team-item {
@@ -271,6 +268,8 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-position {
@@ -279,6 +278,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 /*--------------OUR TEAM----------*/
@@ -286,9 +286,9 @@ button {
 /*--------------OUR PORTFOLIO----------*/
 
 
-.our-portfolio-container {
-    margin-top: 110px;
-    margin-bottom: 110px;
+.our-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .our-portfolio-title {
@@ -306,25 +306,21 @@ button {
 .portfolio-list-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-list-item {
-    width: calc((100% - 2 * 24px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-txt-container {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
+    padding: 32px 16px;
     display: flex;
     flex-direction: column;
     gap: 8px;
-
-
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .our-portfolio-list {
@@ -333,6 +329,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .our-portfolio-txt {
