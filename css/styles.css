@@ -173,7 +173,7 @@ button {
 
 /*--------------ABOUT US----------*/
 
-.hidden {
+.visually-hidden {
     visibility: hidden;
 }
 
